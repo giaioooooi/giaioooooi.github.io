@@ -4,7 +4,7 @@
 paginate:            5
 
 # Build settings
-markdown:            kramdown
+kramdown:
 highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
@@ -13,7 +13,9 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           "Millennial"
 description:	       "a minimalist Jekyll theme for running a blog or publication"
 author:              "Paul Le"
-
+baseurl: '/startjeckyll'
+url: 'http://giaioooooi.github.io'
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+

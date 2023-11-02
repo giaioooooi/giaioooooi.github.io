@@ -153,7 +153,7 @@ The recommended YAML front block is:
 
 ```
 ---
-layout:
+layout: page
 title:
 author:
 categories:
